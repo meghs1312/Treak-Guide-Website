@@ -1,6 +1,7 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins'
 ); 
-/global/
+/*global*/
 *
 {
     margin: 0;
@@ -79,7 +80,7 @@ header{
     color: whitesmoke;
 }
 
-/mobile device/
+/*mobile device*/
 @media only screen and (max-width:850px) {
     .navbar {
         padding: 0;
@@ -101,7 +102,7 @@ header{
     }
 }
 
-/events/
+/*events*/
 section{
     width: 80%;
     margin: 80px auto;
@@ -140,7 +141,7 @@ p {
 .explore {
     width: 100%;
     height: 80vh;
-    background-image: url('trekking.png');
+    background-image: url('trekking-2 (2).png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -212,8 +213,7 @@ p {
     margin: 20px auto;
 }
 
-/mobile device/
-
+/*mobile device*/
 @media only screen and (max-width:850px){
     .menu-btn{
         display: block;
@@ -243,7 +243,7 @@ p {
     }
 
 
-    /events/
+    /*events*/
     .row{
         flex-direction: column;
     }
@@ -253,7 +253,7 @@ p {
     .cool img{
         max-width: 90%;
     }
-    /explore/
+    /*explore*/
     .explore-content{
         width: 100%;
     }
@@ -271,7 +271,7 @@ p {
         padding: 10px;
     }
 }
-/animations/
+/*animations*/
 img {
     transition: transform .3s ease;
 }
